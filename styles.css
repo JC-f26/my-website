@@ -1,0 +1,29 @@
+/*Universal Selector */
+* {
+    background: rgb(102, 0, 102);
+}
+
+one ol {
+    color:rgb(192,192,192);
+}
+
+/* Type Selector */
+body {
+    color: dimgray;
+}
+
+title {
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+}
+/* ID Selector */
+#two {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    color:aquamarine;
+}
+/* Class Selector */
+.first_text {
+    color:rgb(247, 245, 248)
+    
+}
