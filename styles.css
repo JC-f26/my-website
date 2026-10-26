@@ -3,11 +3,17 @@
     background: rgb(102, 0, 102);
 }
 
+/*Relational Selector */
 one ol {
     color:rgb(192,192,192);
 }
 
 /* Type Selector */
+two img {
+    float:left;
+    margin-right:1em;
+}
+
 body {
     color: dimgray;
 }
