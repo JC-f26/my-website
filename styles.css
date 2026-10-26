@@ -9,11 +9,6 @@ one ol {
 }
 
 /* Type Selector */
-two>img {
-    float:left;
-    margin-right:1em;
-}
-
 body {
     color: dimgray;
 }
@@ -32,4 +27,18 @@ title {
 .first_text {
     color:rgb(247, 245, 248)
     
+}
+ .container-box {
+    width: 100%;
+    border: 1px solid #ccc;
+  /* Crucial: Prevents the parent div from collapsing if the image is taller than the text */
+    display: flow-root;
+
+ }
+.floated-image {
+    float: left;
+    margin: right 15px;
+    margin: bottom 10px;
+    height: auto;
+    max-width: 200px;
 }
