@@ -9,7 +9,7 @@ one ol {
 }
 
 /* Type Selector */
-two img {
+two>img {
     float:left;
     margin-right:1em;
 }
