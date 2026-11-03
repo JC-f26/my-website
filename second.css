@@ -19,7 +19,7 @@ main{
 }
 #requests{
     width: 180px;
-    height: auto;
+    height: 350px;
     float: right;
     border-left: 2px solid black;
 }
