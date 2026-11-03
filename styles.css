@@ -6,31 +6,36 @@
 /*Relational Selector */
 one ol {
     color:rgb(105, 196, 245);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 /* Type Selector */
 body {
     color: rgb(235, 222, 222);
+    font-size: xx-large
 }
 
 title {
     font-family: 'Courier New', Courier, monospace;
     color:black;
+    text-align: left;
 }
 /* ID Selector */
 #two {
     font-family:Arial, Helvetica, sans-serif;
     font-size: small;
     color:aquamarine;
+    border: 10px dotted greenyellow;
 }
 /* Class Selector */
 .first_text {
-    color:rgb(11, 11, 11)
+    color:rgb(11, 11, 11);
+    padding-left: 400px;
     
 }
  .container-box {
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid #d5d210;
   /* Crucial: Prevents the parent div from collapsing if the image is taller than the text */
     display: flow-root;
 
@@ -41,6 +46,7 @@ title {
     margin: bottom 10px;
     height: auto;
     max-width: 100px;
+    padding-left: 10px;
 }
 /* Not made by me, I just wanted to see if this works so I can have the logo */
 .emblem-img {
