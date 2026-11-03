@@ -23,9 +23,10 @@ title {
 /* ID Selector */
 #two {
     font-family:Arial, Helvetica, sans-serif;
-    font-size: small;
+    font-size: medium;
     color:aquamarine;
     border: 10px dotted greenyellow;
+    margin:5px 15px;
 }
 /* Class Selector */
 .first_text {
@@ -35,7 +36,8 @@ title {
 }
  .container-box {
     width: 100%;
-    border: 1px solid #d5d210;
+    border: 1px groove #d5d210;
+    margin-inline: 50%;
   /* Crucial: Prevents the parent div from collapsing if the image is taller than the text */
     display: flow-root;
 
