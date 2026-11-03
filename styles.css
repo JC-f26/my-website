@@ -1,6 +1,6 @@
 /*Universal Selector */
 * {
-    background: rgb(79, 2, 79);
+    background: linear-gradient(purple aquamarine);
 }
 
 /*Relational Selector */
