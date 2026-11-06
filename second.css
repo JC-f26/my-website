@@ -10,8 +10,6 @@ body{
 
     color:white;
 
-
-
 }
 #sidebar-left{
     width: 180px;
@@ -21,8 +19,21 @@ body{
 
     text-align: center;
     color:white;
-
-
+}
+h2, ul, li{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    padding-bottom: .25em;
+    
+}
+ul{
+    padding-left: 1em;
+}
+li{
+    padding-left: .25em;
+    padding-bottom: .25em;
 }
 main{
     height: 350px;
@@ -32,8 +43,6 @@ main{
 
     text-align: center;
     color:white;
-
-
 }
 #requests{
     width: 180px;
