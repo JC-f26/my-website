@@ -26,7 +26,7 @@ h2, ul, li{
 }
 h2{
     padding-bottom: .25em;
-    
+
 }
 ul{
     padding-left: 1em;
@@ -34,6 +34,8 @@ ul{
 li{
     padding-left: .25em;
     padding-bottom: .25em;
+
+    color: white;
 }
 main{
     height: 350px;
