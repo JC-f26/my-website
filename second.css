@@ -1,10 +1,12 @@
 * {
     background-color: black;
+    font-color: white;
 }
 body{
     width:964px;
     margin: 15px auto;
     border: 1px solid white;
+
 
 }
 #sidebar-left{
