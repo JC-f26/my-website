@@ -13,8 +13,10 @@ body{
 
 }
 main{
+    height: 350px;
     width: 600px;
     float: left;
+    border: 1px black;
 
 }
 #requests{
