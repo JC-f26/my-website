@@ -2,7 +2,7 @@ body{
     width:964px;
     background-color: white;
     margin: 15px auto;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
 
 }
 #sidebar-left{
