@@ -1,0 +1,12 @@
+* {
+    background-color: black;
+}
+#sidebar-left{
+    width: 180px;
+    height: 350px;
+    float: left;
+    border-right: 2px solid white;
+
+    text-align: center;
+    color:white;
+}
