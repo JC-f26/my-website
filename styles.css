@@ -14,10 +14,13 @@ ol {
 
 /* Type Selector */
 body {
+    background-color: black;
     color: rgb(235, 222, 222);
     font-size: large
 }
-
+head {
+    background: black;
+}
 title {
     font-family: 'Courier New', Courier, monospace;
     color:white;
@@ -35,7 +38,7 @@ aside {
     padding: 20px;
 }
 main {
-    background: black;
+    background: purple;
     padding: 20px;
     min-width: 0;
 }
