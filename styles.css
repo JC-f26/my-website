@@ -5,10 +5,10 @@
 
 /*Relational Selector */
 ol {
-    color:rgb(105, 196, 245);
+    color:black;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding:500px;
-    text-align:center;
+    padding: 20px;
+    text-align:left;
     
 }
 
@@ -85,12 +85,15 @@ nav a {
 
  }
 .floated-image {
-    float: left;
+    float: top;
     margin: right 15px;
     margin: bottom 10px;
     height: auto;
     max-width: 100px;
     padding-left: 10px;
+}
+aside a {
+    text-decoration: none;
 }
 /* Not made by me, I just wanted to see if this works so I can have the logo */
 .emblem-img {
