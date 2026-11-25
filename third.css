@@ -4,7 +4,6 @@
 
 }
 nav {
-    background: #dce8f2;
     padding: 15px;
 }
 
@@ -21,14 +20,18 @@ nav li {
 nav a {
     display: block;
     padding: 10px;
-    background: #ffffff;
-    color: #263849;
     text-decoration: none;
 }
 
 nav a:hover {
-    background: #263849;
+    background:purple;
     color: white;
+}
+main{
+    text-align: center;
+    padding: 20px;
+    min-width:0;
+    
 }
 @media (max-width: 768px) {
     .container {
