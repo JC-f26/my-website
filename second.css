@@ -1,15 +1,13 @@
 * {
+    box-sizing: border-box;
     background-color: black;
     
 }
-body{
-    width: 964px;
-    height:auto;
-    margin: 15px auto;
+body{;
+    margin: 0;
     border: 1px solid white;
-
+    font-family: Arial, sans-serif;
     color:white;
-
 }
 #sidebar-left{
     width: 180px;
@@ -20,38 +18,39 @@ body{
     text-align: center;
     color:white;
 }
-h2, ul, li{
+nav {
+    padding: 15px;
+}
+nav ul{
     margin: 0;
     padding: 0;
 }
-h2{
-    padding-bottom: .25em;
-
+nav li{
+    margin-bottom: 10px;
 }
-ul{
-    padding-left: 1em;
+nav a{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
 }
-li{
-    padding-left: .25em;
-    padding-bottom: .25em;
-
+nav a:hover{
+    background: purple;
     color: white;
 }
 main{
-    height: 350px;
-    width: 600px;
-    float: left;
-    border: 1px white;
-
+    padding: 20px;
+    min-width:0;
     text-align: center;
     color:white;
 }
-#requests{
-    width: 180px;
-    height: 350px;
-    float: right;
-    border-left: 2px solid white;
-
-    text-align: center;
-    color:white;
+aside{
+    padding: 20px;
 }
+footer{
+    padding: 20px;
+}
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
